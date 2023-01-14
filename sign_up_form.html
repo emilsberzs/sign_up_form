@@ -24,29 +24,36 @@
                     Sign up <em>now</em> to get started.
                 </p>
                 <p>You <em>know</em> You want this!</p>
-                <p>Let's do this!</p>
+
             </div>
             <div class="form-container">
-                <form action="/my-form-validation-page">
+                <form action="#">
+                    <h1>Let's do this!</h1>
                     <div class="form-input">
-                        <fieldset>
+                        <div class="form-div" id="name-div">
                             <label for="first_name">First Name:</label>
                             <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div class="form-div" id="surname-div">
                             <label for="last_name">Last Name:</label>
                             <input type="text" name="last_name" id="last_name">
-                        </fieldset>
-                        <fieldset>
+                        </div>
+                        <div class="form-div" id="email-div">
                             <label for="mail">Email:</label>
                             <input type="email" name="mail" id="mail">
+                        </div>
+                        <div class="form-div" id="phone-div">
                             <label for="phone">Phone Number:</label>
-                            <input type="number" name="phone" id="phone">
-                        </fieldset>
-                        <fieldset>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                        <div class="form-div" id="password-div">
                             <label for="password">Password:</label>
                             <input type="password" name="password" id="password">
+                        </div>
+                        <div class="form-div" id="confirm-password-div">
                             <label for="confirm_password">Confirm Password:</label>
                             <input type="password" name="confirm_password" id="confirm_password">
-                        </fieldset>
+                        </div>
                     </div>
                     <div>
                         <button type="submit">Create Account</button>
