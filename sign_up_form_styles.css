@@ -16,7 +16,7 @@
 }
 
 .right {
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 
 
@@ -69,10 +69,19 @@
 }
 
 input {
+    border: 1px solid grey;
     border-radius: 3px;
     height: 25px;
     width: 200px;
     background-color: #e5e7eb;
+}
+
+input:focus {
+    border: 3px solid blue;
+}
+
+input:valid {
+    border: 3px solid green
 }
 
 button {
@@ -90,4 +99,10 @@ a {
     font-weight: bold;
     text-decoration: none;
     color: #596D48;
+}
+
+.right-bottom {
+    padding-top: 20px;
+    border-top: 2px solid grey;
+    background-color: #e5e7eb;
 }

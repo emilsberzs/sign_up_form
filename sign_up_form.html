@@ -32,30 +32,30 @@
                     <div class="form-input">
                         <div class="form-div" id="name-div">
                             <label for="first_name">First Name:</label>
-                            <input type="text" name="first_name" id="first_name">
+                            <input type="text" name="first_name" id="first_name" required minlength="2" maxlength="10">
                         </div>
                         <div class="form-div" id="surname-div">
                             <label for="last_name">Last Name:</label>
-                            <input type="text" name="last_name" id="last_name">
+                            <input type="text" name="last_name" id="last_name" required minlength="2" maxlength="10">
                         </div>
                         <div class="form-div" id="email-div">
                             <label for="mail">Email:</label>
-                            <input type="email" name="mail" id="mail">
+                            <input type="email" name="mail" id="mail" required>
                         </div>
                         <div class="form-div" id="phone-div">
                             <label for="phone">Phone Number:</label>
-                            <input type="tel" name="phone" id="phone">
+                            <input type="tel" name="phone" id="phone" required minlength="11" maxlength="15">
                         </div>
                         <div class="form-div" id="password-div">
                             <label for="password">Password:</label>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" required minlength="6">
                         </div>
                         <div class="form-div" id="confirm-password-div">
                             <label for="confirm_password">Confirm Password:</label>
-                            <input type="password" name="confirm_password" id="confirm_password">
+                            <input type="password" name="confirm_password" id="confirm_password" required minlength="6">
                         </div>
                     </div>
-                    <div>
+                    <div class="right-bottom">
                         <button type="submit">Create Account</button>
                         <p>Already have an account? <a href="#">Log in</a></p>
                     </div>
